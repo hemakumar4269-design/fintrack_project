@@ -1,0 +1,24 @@
+{
+	"name": "csv_dsforapi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsdatalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "currency.csv",
+				"folderPath": "currency",
+				"fileSystem": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
