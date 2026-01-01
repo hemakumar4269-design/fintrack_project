@@ -1,0 +1,12 @@
+{
+	"name": "RestAPI_ls",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://api.frankfurter.app/2025-01-01?from=INR&to=USD",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
