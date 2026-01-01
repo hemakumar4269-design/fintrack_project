@@ -1,0 +1,9 @@
+{
+	"name": "fintrackdf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "01eaaf6f-bdde-4dd8-91f1-546add0b61b9",
+		"tenantId": "d6a16da3-5bd4-4809-a6f5-c92e44dc80bc"
+	}
+}
